@@ -583,7 +583,7 @@ address {
 .footer-flex-right > ul > li:not(:last-child) {
   margin-bottom: 40px;
 }
-.footer-flex-right > ul > li > p {
+.footer-flex-right > ul > li > a {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;

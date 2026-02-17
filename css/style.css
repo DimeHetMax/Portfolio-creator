@@ -269,6 +269,7 @@ address {
 .project-list {
   display: flex;
   gap: 25px;
+  overflow: auto;
 }
 .project-item {
   max-width: 486px;

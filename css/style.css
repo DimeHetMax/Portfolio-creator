@@ -1,0 +1,70 @@
+:root {
+  --accent-color: #ff8a56;  
+  --main-text-heading: #000;
+  --project-accent-color: #b16cea;
+  --text-color-whiteBackground: #666;
+  --text-color-darkBackground: #fff;
+  --card-heading-color: #3c46ff;
+  --blog-accent-color:#ffa84b;
+  --product-accent-color:#ff5e69;
+  --testimonials-color: #4353ff;
+  --footer-accent-color: #3c46ff;
+  --footer-rights-color:  #8a95ad;
+
+  --font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    color: var(--main-text-heading);
+}
+p{
+    margin: 0;
+    color: var(--text-color-whiteBackground)
+}
+img{
+    display: block;
+}
+ul,ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+button {
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: currentColor;
+}
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--main-text-heading);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container{
+ max-width: 1245px;
+ padding: 0 15px;
+ margin: 0 auto;
+}
+
+/* #region header */
+
+/* #endregion */

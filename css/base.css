@@ -1,0 +1,90 @@
+:root {
+  --accent-color: #ff8a56;
+  --main-text-heading: #000;
+  --white-section-title: #fff;
+  --project-accent-color: #b16cea;
+  --text-color-whiteBackground: #666;
+  --text-color-darkBackground: #fff;
+  --black-button-color: #000;
+  --white-button-color: #fff;
+  --background-color-black: #000;
+  --card-heading-color: #3c46ff;
+  --blog-accent-color: #ffa84b;
+  --product-accent-color: #ff5e69;
+  --testimonials-color: #4353ff;
+  --footer-accent-color: #3c46ff;
+  --footer-rights-color: #8a95ad;
+  --link-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  --font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: var(--main-text-heading);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--main-text-heading);
+}
+
+p {
+  color: var(--text-color-whiteBackground);
+}
+
+button {
+  font-size: 18px;
+  line-height: 1;
+}
+
+.black-btn {
+  padding: 20px 30px;
+  background-color: var(--black-button-color);
+  color: var(--text-color-darkBackground);
+}
+
+.transparent-btn {
+  padding: 20px 0;
+  background-color: var(--white-button-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.text-accent {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.1;
+}
